@@ -1,0 +1,109 @@
+CRITICAL - 2024-06-25 13:40:30 --> Cannot redeclare App\Filters\Auth::before()
+in APPPATH\Filters\Auth.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-25 13:41:10 --> Class App\Filters\Auth contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+in APPPATH\Filters\Auth.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-25 14:34:01 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+in APPPATH\Views\carrito.php on line 66.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito.php', [], true)
+ 3 APPPATH\Controllers\Carrito_controller.php(96): view('carrito.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->carrito_view()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 14:34:05 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+in APPPATH\Views\carrito.php on line 66.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito.php', [], true)
+ 3 APPPATH\Controllers\Carrito_controller.php(96): view('carrito.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->carrito_view()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 15:15:02 --> Call to a member function find() on array
+in APPPATH\Views\carrito.php on line 61.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito.php', [], true)
+ 4 APPPATH\Controllers\Carrito_controller.php(96): view('carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->carrito_view()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 15:15:12 --> Call to a member function find() on array
+in APPPATH\Views\carrito.php on line 61.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('carrito.php', [], true)
+ 4 APPPATH\Controllers\Carrito_controller.php(96): view('carrito.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->carrito_view()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 21:10:03 --> Class 'App\Filters\AdminFilter' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('cargar_producto', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 21:13:00 --> Class 'App\Filters\AdminFilter' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('cargar_producto', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-25 22:15:58 --> mysqli_sql_exception: Column 'imagen' cannot be null in C:\xampp\htdocs\proyecto_perez_santiago\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_perez_santiago\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\proyecto_perez_santiago\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\proyecto_perez_santiago\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\proyecto_perez_santiago\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\proyecto_perez_santiago\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_perez_santiago\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_perez_santiago\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proyecto_perez_santiago\app\Controllers\Product_controller.php(121): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proyecto_perez_santiago\system\CodeIgniter.php(934): App\Controllers\Product_controller->agregar_prod()
+#9 C:\xampp\htdocs\proyecto_perez_santiago\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product_controller))
+#10 C:\xampp\htdocs\proyecto_perez_santiago\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_perez_santiago\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-25 22:15:59 --> Column 'imagen' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`nombre_prod`, `imagen`, `categoria_id`, `precio`, `precio_vta`, `stock`, `stock_min`, `eliminado`) VALUES (:nombre_prod:, :imagen:, :categoria_id:, :precio:, :precio_vta:, :stock:, :stock_min:, :eliminado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Product_controller.php(121): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product_controller->agregar_prod()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 22:36:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Product_controller.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product_controller->agregar_prod()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 22:54:25 --> Use of undefined constant activa - assumed 'activa' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\crud_categorias.php on line 21.
+ 1 APPPATH\Views\crud_categorias.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant activa - assumed \'activa\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\crud_categorias.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud_categorias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crud_categorias', [], true)
+ 5 APPPATH\Controllers\Categorias_controller.php(20): view('crud_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias_controller->crud_categorias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-25 23:21:40 --> Cannot redeclare App\Controllers\Categorias_controller::alta_categoria()
+in APPPATH\Controllers\Categorias_controller.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-25 23:27:36 --> Cannot redeclare App\Controllers\Categorias_controller::alta_categoria()
+in APPPATH\Controllers\Categorias_controller.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-25 23:27:47 --> Cannot redeclare App\Controllers\Categorias_controller::alta_categoria()
+in APPPATH\Controllers\Categorias_controller.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-25 23:29:22 --> Cannot redeclare App\Controllers\Categorias_controller::agregar_categoria()
+in APPPATH\Controllers\Categorias_controller.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

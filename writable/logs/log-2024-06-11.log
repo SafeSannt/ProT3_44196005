@@ -1,0 +1,6 @@
+CRITICAL - 2024-06-11 22:58:29 --> Call to a member function setRules() on null
+in APPPATH\Controllers\Usuario_controller.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuario_controller->formValidation()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

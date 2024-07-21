@@ -1,0 +1,9 @@
+CRITICAL - 2024-06-02 14:25:45 --> syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\head.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('head.php', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('head.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->term_and_uses()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

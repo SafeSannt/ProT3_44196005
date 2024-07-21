@@ -1,0 +1,24 @@
+CRITICAL - 2024-05-29 23:17:02 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Product_controller.php on line 177.
+ 1 APPPATH\Controllers\Product_controller.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Product_controller.php', 177, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product_controller->filtrarProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:20:43 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Controllers\Product_controller.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Controllers\\Product_controller.php', 192, [...])
+ 2 APPPATH\Controllers\Product_controller.php(192): array_column(null, 'id')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product_controller->filtrarProductos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:49:20 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+in APPPATH\Views\head.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('head.php', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('head.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

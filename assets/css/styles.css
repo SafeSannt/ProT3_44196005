@@ -1,0 +1,88 @@
+p {
+    text-align: justify;
+}
+
+/* Cambiar el color de las flechas del navbar */
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    filter: invert(1); /* Invierte el color de las flechas */
+}
+
+.parrafo {
+    margin-bottom: 5%;
+}
+
+.navbar .navbar-brand.textColor {
+    color: #ffffffa9; /* Cambia el color del texto del navbar-brand a blanco */
+}
+
+.navbar .nav-link {
+    color: #ffffff ; /* Cambia el color del texto de los enlaces de la barra de navegación */
+    
+}
+
+.navbar .nav-link:hover {
+    text-decoration: overline;
+    color: #ffffff;
+}
+
+.bgCustom {
+    background-color: #796f69; 
+}
+
+.espacio {
+    margin-bottom: 5%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.img-presentacion {
+    width: 125px; 
+    height: auto; 
+    margin-right: 5%;
+
+}
+
+.redes_sociales {
+    width: 25px;
+    height: auto;
+    margin-right: 5%;
+}
+
+.navbar-logo{
+    width: 40px;
+    height: auto;
+}
+
+footer {
+    color: #ffe4c4;
+    margin-top: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffe4c4;
+    padding: 4px 4px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.subrayado {
+    text-decoration:underline ;
+}
+
+.redes_sociales {
+    width: 25px;
+    height: auto;
+}

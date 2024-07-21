@@ -1,0 +1,10 @@
+CRITICAL - 2024-06-13 22:11:44 --> Call to a member function where() on array
+in APPPATH\Views\factura_detalle.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('factura_detalle.php', [], true)
+ 4 APPPATH\Controllers\Carrito_controller.php(99): view('factura_detalle.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->factura_view('9')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
